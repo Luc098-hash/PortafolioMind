@@ -1,0 +1,10 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const startButton = document.getElementById("startBtn");
+
+    if (startButton) {
+        startButton.addEventListener("click", function () {
+            alert("¡Bienvenido a mi portafolio!");
+            window.location.href = "#proyectos";
+        });
+    }
+});
