@@ -3,71 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PortafolioMind</title>
+    <title>Portafolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
-        <h1>PortafolioMind</h1>
+        <h1>Bienvenido a mi Portafolio</h1>
         <nav>
             <ul>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    
-    <section id="hero">
-        <h2>Transformamos tu forma de trabajar</h2>
-        <p>Únete a la revolución de la inteligencia artificial sin costos.</p>
-        <button>Empieza ahora</button>
-    </section>
-    
-    <section id="servicios">
-        <h2>Nuestros Servicios</h2>
-        <div class="servicio">
-            <h3>Automatización</h3>
-            <p>Optimiza tus procesos con IA avanzada.</p>
-        </div>
-        <div class="servicio">
-            <h3>Análisis de Datos</h3>
-            <p>Obtén insights valiosos con nuestras herramientas.</p>
-        </div>
-        <div class="servicio">
-            <h3>Asistencia Virtual</h3>
-            <p>Accede a asistentes inteligentes en tiempo real.</p>
-        </div>
-    </section>
-    
-    <section id="testimonios">
-        <h2>Testimonios</h2>
-        <blockquote>
-            <p>"PortafolioMind ha cambiado la manera en que trabajamos, increíble experiencia." - Cliente Satisfecho</p>
-        </blockquote>
-        <blockquote>
-            <p>"Un servicio confiable y sin costos adicionales, 100% recomendado." - Usuario Feliz</p>
-        </blockquote>
-    </section>
-    
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" required></textarea>
-            
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-    
+    <main>
+        <section>
+            <img src="hero-image.jpg" alt="Imagen Principal">
+            <button id="startBtn">Empezar ahora</button>
+        </section>
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Descripción breve sobre quién soy y qué hago.</p>
+        </section>
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <p>Lista de proyectos destacados.</p>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Formulario de contacto o redes sociales.</p>
+        </section>
+    </main>
     <footer>
-        <p>&copy; 2025 PortafolioMind. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Mi Portafolio. Todos los derechos reservados.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
